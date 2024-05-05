@@ -92,7 +92,7 @@ if __name__ ==  '__main__':
 #         label = []
 #         eval_m = []
 #         model.eval()
-#         for i, (inputs, target, feature, mask) in enumerate(test_loader):
+#         for i, (inputs, target, feature, mask) in enumerate(val_loader):
 #             testx = torch.Tensor(inputs).to(device)
 #             testy = torch.Tensor(target).to(device)
 #             output, _, _ = model(testx)
